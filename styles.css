@@ -1,0 +1,44 @@
+:root {
+    --background-color: #D5DFE5;
+    --foreground-color: #567568;
+    --border-color: #B49594;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+section {
+    max-width: 1280px;
+    margin: auto;
+}
+
+td, th {
+    border: 2px solid var(--border-color);
+    padding: 0.6em 1em;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    border-style: hidden;
+    box-shadow: 0 0 0 2px var(--border-color);
+}
+
+th[type="text"] {
+    text-align: left;
+}
+
+input[type="range"] {
+    accent-color: var(--foreground-color);
+}
+
+table button {
+    background: none;
+    cursor: pointer;
+    border: none;
+}
